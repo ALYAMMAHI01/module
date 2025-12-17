@@ -23,7 +23,7 @@ def get_fibonacci_based_on_minute():
     print(seq)
     return seq
 from datetime import datetime
-if __name__ == "__main__":
-    get_fibonacci_based_on_minute()
+
+
 
 # note: To test this code, simply run the module. It will print the Fibonacci sequence based on the current minute.

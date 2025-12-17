@@ -15,7 +15,7 @@ def print_variable_info(var):
     return f"{var} {type(var)}"
 
 # Example usage
-if __name__ == "__main__":
+
     # Test the print_variable_info function
     result = print_variable_info(42)
     print("Returned:", result)

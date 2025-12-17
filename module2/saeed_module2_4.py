@@ -76,7 +76,7 @@ def save_people_json(people: List[Person], path: str | None = None) -> str:
     return path
 
 
-if __name__ == "__main__":
+
     people = generate_random_people(5)
     out_path = save_people_json(people)
     print(f"Wrote {len(people)} people to {out_path}")

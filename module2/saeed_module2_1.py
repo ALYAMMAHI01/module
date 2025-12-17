@@ -14,7 +14,7 @@ def even_or_odd(n):
     return "even" if i % 2 == 0 else "odd"
 
 
-if __name__ == "__main__":
+
     import sys
 
     if len(sys.argv) > 1:

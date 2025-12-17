@@ -10,7 +10,7 @@ def get_today_date():
     return f"({now.strftime('%S:%M:%H')} , {now.strftime('%d/%m/%Y')})"
 
 # Example usage
-if __name__ == "__main__":
+
     print(get_today_date())
 
 # Note: The time format is in 24-hour format.

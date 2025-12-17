@@ -24,7 +24,7 @@ def unique_numbers(numbers: Iterable[float]) -> List[float]:
     return out
 
 
-if __name__ == "__main__":
+
     # simple CLI: pass numbers separated by spaces
     import sys
 

@@ -89,7 +89,6 @@ def custom_decrypt(ciphertext_b64: str, key: str) -> str:
         raise ValueError("decrypted bytes are not valid UTF-8") from e
 
 
-if __name__ == "__main__":
     import sys
 
     if len(sys.argv) >= 4 and sys.argv[1] in ("enc", "dec"):

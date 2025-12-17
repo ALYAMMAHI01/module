@@ -27,9 +27,7 @@ def read_address_and_count_words(filename="person_address.txt"):
         return None
 
 # Example usage
-if __name__ == "__main__":
-    word_count = read_address_and_count_words()
-    if word_count is not None:
+
         print(f"Word count appended: {word_count}")
 
 

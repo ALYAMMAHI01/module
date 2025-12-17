@@ -91,7 +91,7 @@ def play_game() -> None:
         current = "O" if current == "X" else "X"
 
 
-if __name__ == "__main__":
+
     print("Welcome to Tic-Tac-Toe")
     while True:
         play_game()

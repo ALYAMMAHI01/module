@@ -28,7 +28,7 @@ def shift_string_and_calculate(string, price_per_letter):
     }
 
 # Example usage
-if __name__ == "__main__":
+
     result = shift_string_and_calculate("Hello World", 0.5)
     print(result)
 

@@ -13,7 +13,7 @@ def display_string(value):
         return None
 
 # Example usage
-if __name__ == "__main__":
+
     # Test with string
     result1 = display_string("Hello World")
     print("Returned:", result1)
