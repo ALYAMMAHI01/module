@@ -1,0 +1,10 @@
+SQL (Structured Query Language) is a standard language used to store, retrieve, manage, and manipulate data in relational databases.
+
+Why we use SQL:
+We use SQL to easily interact with databases—such as adding new data, finding specific information, updating records, or deleting data. It allows users and applications to work with large amounts of structured data efficiently and accurately. SQL is widely used in websites, business systems, data analysis, and software applications.
+
+Who made SQL:
+SQL was first developed in the early 1970s at IBM by Donald D. Chamberlin and Raymond F. Boyce. It was originally called SEQUEL and later became SQL. Today, it is an international standard used by many database systems like MySQL, PostgreSQL, SQL Server, and Oracle.
+
+Summary:
+In short, SQL is the universal language for working with relational databases. It helps people and programs communicate with databases in a clear, powerful, and standardized way, making it essential in data-driven applications and systems.
