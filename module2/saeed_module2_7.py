@@ -2,7 +2,7 @@
 # This code creates a simple console-based version of the 2048 game.
 # Players can move tiles using 'w', 'a', 's', 'd' keys to slide tiles up, left, down, and right respectively.
 # The game ends when the player reaches the 2048 tile or when no moves are possible.
-# Rafrance https://en.wikipedia.org/wiki/2048_(video_game)
+# Reference https://en.wikipedia.org/wiki/2048_(video_game)
 import random
 import os
 import sys
@@ -118,11 +118,13 @@ def main():
         game.display()
         if game.is_win():
             print("You win!")
-            os.remove(SAVE_FILE) if os.path.exists(SAVE_FILE) else None
+            if os.path.exists(SAVE_FILE):
+                os.remove(SAVE_FILE)
             break
         if game.is_lose():
             print("You lose!")
-            os.remove(SAVE_FILE) if os.path.exists(SAVE_FILE) else None
+            if os.path.exists(SAVE_FILE):
+                os.remove(SAVE_FILE)
             break
         move = input("Move (w/a/s/d), save, quit: ").lower()
         if move in ['w', 'a', 's', 'd']:
@@ -139,4 +141,3 @@ def main():
             print("Invalid move")
 
 
-   
